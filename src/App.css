@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-color: #25262c;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #1b1c22;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.right-container {
+  width: 400px;
+  height: 500px;
+  background-color: #25262c;
+  border: 1px solid #ffffff34;
+  border-radius: 10px;
+}
+hr {
+  border: 1px solid #ffffff34;
+}
+.list-container {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+.bold-btn {
+  font-weight: bold;
+  color: #f1f5f9;
+}
+.italic-btn {
+  font-style: italic;
+  color: #f1f5f9;
+}
+.decoration-btn {
+  text-decoration: underline;
+  color: #f1f5f9;
+}
+.heading {
+  color: white;
+}
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 350px;
+  padding: 10px;
+  color: #f1f5f9;
+}
+.bolder {
+  color: #faff00;
+}
+.italick {
+  color: #faff00;
+}
+.underline {
+  color: #faff00;
+}
